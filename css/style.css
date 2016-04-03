@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #000000;
+
+	font-family: 'Nunito', sans-serif;
+}
+
+.header-bg {
+	background: url('../assets/bg.jpg') no-repeat center center;
+	background-size: cover;
+	height: 600px;
+}
+
+.img {
+	float: left;
+	padding: 0px;
+}
+
+.img img {
+	position: relative;
+	width: 99.5%;
+}
+
+img:hover {
+	-webkit-transform: scale(1.1);
+	outline: solid #ffffff 1px;
+	z-index: 30;
+}
+
+.white {
+	color: #f4f4f4;
+}
+
+.name {
+	top: 320px;
+}
+
+.name div {
+	padding: 10px;
+}
+
+.portfolio {
+	background-color: #000000;
+}
+
+.portfolio-name {
+	width: 100%;
+	padding-top: 200px;
+	background-color: #000000;
+}
+
+.big {
+	font-size: 50px;
+}
+
+.medium {
+	font-size: 30px;
+}
+
+.small {
+	font-size: 20px;
+}
+
+footer {
+	margin-top: 50px;
+	padding: 20px;
+	color: #f4f4f4;
+}
+
+.animation {
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+}
+
+.long-animation {
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+}
+
+/*up animation*/
+@keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    transform: translateY(60px);
+  }
+
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.up {
+  -webkit-animation-name: up;
+  animation-name: up;
+}
+
+/*down animation*/
+@keyframes down {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-60px);
+    -ms-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+
+  70% {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.down {
+  -webkit-animation-name: down;
+  animation-name: down;
+}
