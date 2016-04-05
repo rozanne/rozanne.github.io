@@ -5,7 +5,7 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	background: #000000;
+	background: #dedede;
 
 	font-family: 'Nunito', sans-serif;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 img:hover {
-	-webkit-transform: scale(1.1);
+	-webkit-transform: scale(2);
 	outline: solid #ffffff 1px;
 	z-index: 30;
 }
@@ -36,22 +36,23 @@ img:hover {
 	color: #f4f4f4;
 }
 
-.name {
-	top: 320px;
+.darkgray {
+  color: #454545;
 }
 
-.name div {
-	padding: 10px;
+.name {
+	top: 400px;
 }
 
 .portfolio {
-	background-color: #000000;
+	background-color: #dedede;
+  padding-bottom: 50px;
 }
 
 .portfolio-name {
 	width: 100%;
-	padding-top: 200px;
-	background-color: #000000;
+	padding-top: 50px;
+	background-color: #dedede;
   margin: 10px;
 }
 
@@ -70,17 +71,12 @@ img:hover {
 footer {
 	margin-top: 50px;
 	padding: 20px;
-	color: #f4f4f4;
+	color: #454545;
 }
 
 .animation {
 	-webkit-animation-duration: 1.5s;
 	animation-duration: 1.5s;
-}
-
-.long-animation {
-	-webkit-animation-duration: 3s;
-	animation-duration: 3s;
 }
 
 /*up animation*/
@@ -139,4 +135,63 @@ footer {
 .down {
   -webkit-animation-name: down;
   animation-name: down;
+}
+
+/*left animation*/
+@keyframes left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    transform: translateX(-200px);
+  }
+
+  70% {
+    opacity: 1;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+.left {
+  -webkit-animation-name: left;
+  animation-name: left;
+}
+
+
+/*right animation*/
+@keyframes right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    transform: translateX(200px);
+  }
+
+  70% {
+    opacity: 1;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+.right {
+  -webkit-animation-name: right;
+  animation-name: right;
 }
