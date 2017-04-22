@@ -40,37 +40,37 @@ section > figure {
 }
 
 hr {
-	background-color: #4897E0;
+	background-color: #4897e0;
 	border: none;
 	margin: 0 10px;
-	width: (100% - 10px);
+	width: calc(100% - 20px);
 	height: 4px;
 	text-align: center;
 }
 
 h1 {
 	font-size: 40px;
-	color: #19275C;
+	color: #19275c;
 }
 
 h2 {
-	color: #8F9CA8;
+	color: #8f9ca8;
 	font-size: 25px;
 	padding: 7px;
 }
 
 h3 {
 	font-size: 25px;
-	color: #19275C;	
+	color: #19275c;
 }
 
 h4 {
-	color: #19275C;
+	color: #19275c;
 }
 
 a {
 	font-size: 12px;
-	color: #19275C;
+	color: #19275c;
 	text-decoration: none;
 }
 
