@@ -1,5 +1,5 @@
 * {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -11,9 +11,9 @@
 	}
 
 	header {
+		width: 100%;
 		margin-top: 25px;
 		height: 100px;
-		padding: 0 10px;
 	}
 
 	header > picture > img {
@@ -24,7 +24,7 @@
 		vertical-align: center;
 	}
 
-	header > section {
+	.header-text-section {
 		float: right;
 		text-align: right;
 	}
@@ -34,7 +34,7 @@
 		padding: 0 10px;
 	}
 
-	section > figure {
+	.body-content-section > figure {
 		float: left;
 		width: calc(33.3% - 20px);
 		text-align: center;
@@ -45,13 +45,8 @@
 		width: 100%;
 	}
 
-	hr {
-		background-color: #4897e0;
-		border: none;
-		margin: 0 10px;
-		width: calc(100% - 20px);
-		height: 4px;
-		text-align: center;
+	.hr-rule {
+		border-bottom: 4px solid #4897e0;
 	}
 
 	h1 {
@@ -87,16 +82,21 @@
 	}
 
 	header {
+		width: 100%;
 		height: 100px;
-		padding: 0 10px;
+		margin-top: 25px;
 		overflow: hidden;
 	}
 
-	header > picture {
-		display: none;
+	header > picture > img {
+		position: absolute;
+		opacity: 0.5;
+		z-index: -1;
+		max-width: 75px;
+		max-height: 75px;
 	}
 
-	header > section {
+	.header-text-section {
 		padding-top: 15px;
 		width: 100%;
 		float: left;
@@ -108,7 +108,7 @@
 		padding: 0 10px;
 	}
 
-	section > figure {
+	.body-content-section > figure {
 		float: left;
 		width: 100%;
 		text-align: center;
@@ -119,13 +119,8 @@
 		width: 100%;
 	}
 
-	hr {
-		background-color: #4897e0;
-		border: none;
-		margin: 0 10px;
-		width: calc(100% - 20px);
-		height: 4px;
-		text-align: center;
+	.hr-rule {
+		border-bottom: 4px solid #4897e0;
 	}
 
 	h1 {
