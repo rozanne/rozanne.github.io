@@ -17,3 +17,8 @@
     background-image: url(resource/readm2_profile.jpeg);
     background-size: cover;
 }
+
+.page-card-img {
+    width: 200px;
+    height: 250px;
+}
