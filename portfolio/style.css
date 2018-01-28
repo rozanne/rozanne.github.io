@@ -22,3 +22,9 @@
     width: 200px;
     height: 250px;
 }
+
+footer {
+    text-align: right;
+	margin-top: 50px;
+	color: #454545;
+}
