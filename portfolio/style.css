@@ -1,0 +1,14 @@
+.page-header {
+    height: 150px;
+    line-height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.page-header-container {
+    height: 100%;
+}
+
+.page-header-logo {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 4rem;
+}
