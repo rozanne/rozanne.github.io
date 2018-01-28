@@ -12,3 +12,8 @@
     font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 4rem;
 }
+
+.page-full-img {
+    background-image: url(resource/readm2_profile.jpeg);
+    background-size: cover;
+}
