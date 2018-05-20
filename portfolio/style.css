@@ -23,6 +23,11 @@
     height: 250px;
 }
 
+.video {
+  width: auto;
+  height: 250px;
+}
+
 footer {
     text-align: right;
 	margin-top: 50px;
