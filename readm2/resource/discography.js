@@ -99,8 +99,32 @@ var discographies = [
         type: "DJ",
         title: "Techtree",
         date: "MAY 05, 2018",
-        place: "@ ITAEWON G-15 Sonnendeck",
+        place: "@ ITAEWON G-15 SONNENDECK",
         imageurl: "resource/poster_180505.jpg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Daldal Ssalong Cocktail Party",
+        date: "MAY 25, 2018",
+        place: "@ SUWON DALDAL SSALONG",
+        imageurl: "",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Tropical Awesome Party",
+        date: "JUN 30, 2018",
+        place: "@ ITAEWON POPCORN LOUNGE",
+        imageurl: "resource/poster_180630.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "REVERSI NIGHT: Mood",
+        date: "JUL 21, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_180721.jpeg",
         linkurl: ""
     }
 ];
