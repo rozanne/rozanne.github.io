@@ -126,5 +126,13 @@ var discographies = [
         place: "@ INCHEON REVERSI LOUNGE",
         imageurl: "resource/poster_180721.jpeg",
         linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Temple Guest DJ",
+        date: "AUG 3, 2018",
+        place: "@ ITAEWON TEMPLE LOUNGE",
+        imageurl: "",
+        linkurl: ""
     }
 ];
