@@ -134,5 +134,13 @@ var discographies = [
         place: "@ ITAEWON TEMPLE LOUNGE",
         imageurl: "",
         linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Temple X Spotlight",
+        date: "AUG 18, 2018",
+        place: "@ ITAEWON TEMPLE LOUNGE",
+        imageurl: "resource/poster_180818.png",
+        linkurl: ""
     }
 ];
