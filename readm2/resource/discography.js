@@ -142,5 +142,13 @@ var discographies = [
         place: "@ ITAEWON TEMPLE LOUNGE",
         imageurl: "resource/poster_180818.png",
         linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Cosmic Night #3",
+        data: "AUG 25, 2018",
+        place: "@ CHEONGDAM COCOLAND",
+        imageurl: "resource/poster_180825.png",
+        linkurl: ""
     }
 ];
