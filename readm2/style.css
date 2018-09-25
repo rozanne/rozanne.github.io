@@ -1,5 +1,9 @@
+body {
+    overflow: hidden;
+}
+
 .full-container {
-    width: 100%:
+    width: 100%;
 }
 
 .page-header {
