@@ -1,7 +1,7 @@
 var discographies = [
     {
         type: "Volunteer",
-        title: "DJ Volunteer for Suwon Welfare center",
+        title: "DJing for Suwon Welfare center",
         date: "2017, 2018 ~ ",
         place: "@ Suwon Welfare center",
         imageurl: "",
@@ -9,7 +9,7 @@ var discographies = [
     },
     {
         type: "Leader",
-        title: "Leader of Spotlight Crew",
+        title: "Spotlight Crew",
         date: "2018 ~ ",
         place: "@ Spotlight Crew",
         imageurl: "",

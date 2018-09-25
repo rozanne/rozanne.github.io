@@ -1,11 +1,16 @@
-body {
-    width: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
 .full-container {
     width: 100%;
+}
+
+.body-container {
+    background-image: url(resource/readm2.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .page-header {
@@ -24,7 +29,7 @@ body {
 }
 
 .page-full-img {
-    background-image: url(resource/readm2_profile.jpeg);
+    background-image: url(resource/readm2.jpeg);
     background-size: cover;
 }
 
