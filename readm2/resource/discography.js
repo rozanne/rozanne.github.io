@@ -1,5 +1,37 @@
 var discographies = [
     {
+        type: "Volunteer",
+        title: "DJ Volunteer for Suwon Welfare center",
+        date: "2017, 2018 ~ ",
+        place: "@ Suwon Welfare center",
+        imageurl: "",
+        linkurl: ""
+    },
+    {
+        type: "Leader",
+        title: "Leader of Spotlight Crew",
+        date: "2018 ~ ",
+        place: "@ Spotlight Crew",
+        imageurl: "",
+        linkurl: ""
+    },
+    {
+        type: "Member",
+        title: "Serotonin Sauna Crew",
+        date: "2018 ~ ",
+        place: "@ Serotonin Sauna Crew",
+        imageurl: "",
+        linkurl: ""
+    },
+    {
+        type: "Resident DJ",
+        title: "Itaewon CL Lab Lounge",
+        date: "2018",
+        place: "@ Itaewon CL Lab",
+        imageurl: "",
+        linkurl: ""
+    },
+    {
         type: "DJ",
         title: "FirstKiss Party",
         date: "NOV 20, 2015",
@@ -149,6 +181,14 @@ var discographies = [
         date: "AUG 25, 2018",
         place: "@ CHEONGDAM COCOLAND",
         imageurl: "resource/poster_180825.png",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Cosmic Night #4",
+        date: "SEPT 14, 2018",
+        place: "@ CHEONGDAM COCOLAND",
+        imageurl: "resource/poster_180914.png",
         linkurl: ""
     }
 ];
