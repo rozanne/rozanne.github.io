@@ -190,5 +190,13 @@ var discographies = [
         place: "@ CHEONGDAM COCOLAND",
         imageurl: "resource/poster_180914.png",
         linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Serotonin Sauna vol.1",
+        date: "SEPT 29, 2018",
+        place: "@ MULLAE MONEYTREE",
+        imageurl: "resource/poster_180929.jpeg",
+        linkurl: ""
     }
 ];
