@@ -198,5 +198,29 @@ var discographies = [
         place: "@ MULLAE MONEYTREE",
         imageurl: "resource/poster_180929.jpeg",
         linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "MIXTAPE",
+        date: "OCT 13, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_181013.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Samsung Nanum Walking Festival",
+        date: "OCT 20, 2018",
+        place: "@ Gwanggyo Lake Park",
+        imageurl: "resource/poster_181020.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Acid House & Techno",
+        date: "OCT 20, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_181020_2.jpeg",
+        linkurl: ""
     }
 ];
