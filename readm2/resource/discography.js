@@ -211,7 +211,7 @@ var discographies = [
         type: "DJ",
         title: "Samsung Nanum Walking Festival",
         date: "OCT 20, 2018",
-        place: "@ Gwanggyo Lake Park",
+        place: "@ GWANGGYO LAKE PARK",
         imageurl: "resource/poster_181020.jpeg",
         linkurl: ""
     },
@@ -221,6 +221,38 @@ var discographies = [
         date: "OCT 20, 2018",
         place: "@ INCHEON REVERSI LOUNGE",
         imageurl: "resource/poster_181020_2.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Deadhush Halloween",
+        date: "OCT 26, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_181026.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Spotlight Halloween - CANCELED",
+        date: "OCT 27, 2018",
+        place: "@ CHEONGDAM MONKEY CREW",
+        imageurl: "resource/poster_181027.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Riversi Halloween",
+        date: "OCT 27, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_181027_2.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Crazy All-Stars DJ Party",
+        date: "NOV 3, 2018",
+        place: "@ ITAEWON GROOVY",
+        imageurl: "resource/poster_181103.jpeg",
         linkurl: ""
     }
 ];
