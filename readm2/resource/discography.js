@@ -227,7 +227,7 @@ var discographies = [
         type: "DJ",
         title: "Deadhush Halloween",
         date: "OCT 26, 2018",
-        place: "@ INCHEON REVERSI LOUNGE",
+        place: "@ CHEONGDAM COCOLAND",
         imageurl: "resource/poster_181026.jpeg",
         linkurl: ""
     },
