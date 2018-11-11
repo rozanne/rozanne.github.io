@@ -241,7 +241,7 @@ var discographies = [
     },
     {
         type: "DJ",
-        title: "Riversi Halloween",
+        title: "Reversi Halloween",
         date: "OCT 27, 2018",
         place: "@ INCHEON REVERSI LOUNGE",
         imageurl: "resource/poster_181027_2.jpeg",
