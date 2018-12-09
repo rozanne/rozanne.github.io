@@ -254,5 +254,61 @@ var discographies = [
         place: "@ ITAEWON GROOVY",
         imageurl: "resource/poster_181103.jpeg",
         linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Vafool vol.2",
+        date: "NOV 11, 2018",
+        place: "@ SEONGSU AFECTO STUDIO",
+        imageurl: "resource/poster_181111.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "JKINGS ROOM #10",
+        date: "NOV 23, 2018",
+        place: "@ ILSAN JKINGS ROOM",
+        imageurl: "resource/poster_181123.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Reversi Night",
+        date: "NOV 24, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_181124.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Spinning Year-end party",
+        date: "DEC 01, 2018",
+        place: "@ DONGTAN THE JOA GYM",
+        imageurl: "",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Marriott Social Club",
+        date: "DEC 06, 2018",
+        place: "@ HONGDAE CAFE COLLINE",
+        imageurl: "resource/poster_181206.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Made in Korea",
+        date: "DEC 07, 2018",
+        place: "@ INCHEON REVERSI LOUNGE",
+        imageurl: "resource/poster_181207.jpeg",
+        linkurl: ""
+    },
+    {
+        type: "DJ",
+        title: "Damanna Party",
+        date: "DEC 08, 2018",
+        place: "@ DAEHAKRO DO IT ACAPPELLA A Bar",
+        imageurl: "resource/poster_181208.png",
+        linkurl: ""
     }
 ];
